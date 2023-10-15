@@ -1,0 +1,19 @@
+# Compiled python files
+*.pyc
+__pycache__/
+
+# Database
+app.db
+
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+
+# Alembic
+alembic.ini
+
+# IDE settings (e.g., PyCharm, VSCode, etc.)
+.idea/
+.vscode/
