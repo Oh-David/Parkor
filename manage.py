@@ -1,6 +1,9 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
+print("Before importing MigrateCommand")
 from flask_migrate import Migrate, MigrateCommand
+print("After importing MigrateCommand")
+
 from flask_script import Manager
 import config
 
